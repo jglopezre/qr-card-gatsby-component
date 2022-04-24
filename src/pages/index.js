@@ -1,31 +1,32 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import Card from '../components/Card';
+import colors from '../assets/colors';
+import UnderFooter from "../components/UnderFooter";
+import './style.css';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+const mainBox = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  minHeight: '100vh',
+  minWidth: '100vw',
+  background: colors.lightGray,
+  margin: '0',
+  paddingTop: '4rem',
+  paddingBottom: '4rem'
+}
+
+const text1 = 'Improve your front-end skills by building projects';
+const text2 = 'Scan the QR code to visit Frontend Mentor and take your coding skills to the next level';
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-  </Layout>
+  <>
+    <div style={ mainBox }>
+      <Card titleText={ text1 } descText={ text2 } />
+    </div>
+    <UnderFooter />
+  </>
 )
 
 export default IndexPage

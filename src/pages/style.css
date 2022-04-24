@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit/static/Outfit-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
+    font-weight: bold;
+}
+
+html, body {
+    font-size: 15px;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
