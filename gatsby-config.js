@@ -5,6 +5,7 @@ module.exports = {
     author: `@jglopezre`,
     siteUrl: `https://jglopezre.github.io/qr-card-gatsby-component/`,
   },
+  pathPrefix: `/docs`,
   plugins: [
     `gatsby-plugin-image`,
     {

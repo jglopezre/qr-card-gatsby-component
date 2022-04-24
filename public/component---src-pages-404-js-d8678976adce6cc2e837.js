@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkqr_card_component=self.webpackChunkqr_card_component||[]).push([[883],{429:function(n,e,t){t.r(e);var c=t(7294);e.default=function(){return c.createElement("h1",null,"404 not found")}}}]);
-//# sourceMappingURL=component---src-pages-404-js-d8678976adce6cc2e837.js.map
