@@ -3,7 +3,7 @@ module.exports = {
     title: `QR card React Component`,
     description: `A Front End Mentor QR card`,
     author: `@jglopezre`,
-    siteUrl: `http://mysite.tk`,
+    siteUrl: `https://jglopezre.github.io/qr-card-gatsby-component/`,
   },
   plugins: [
     `gatsby-plugin-image`,
