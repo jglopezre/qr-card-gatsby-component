@@ -1,11 +1,11 @@
 module.exports = {
+  pathPrefix: `qr-card-gatsby-component/`,
   siteMetadata: {
     title: `QR card React Component`,
     description: `A Front End Mentor QR card`,
     author: `@jglopezre`,
     siteUrl: `https://jglopezre.github.io/qr-card-gatsby-component/`,
   },
-  pathPrefix: `/docs`,
   plugins: [
     `gatsby-plugin-image`,
     {
