@@ -4,7 +4,7 @@ import colors from '../assets/colors';
 
 const cardWrapper = {
     background: colors.white,
-    width: '280px',
+    width: '300px',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
