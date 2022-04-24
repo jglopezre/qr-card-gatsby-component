@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-d8678976adce6cc2e837.js","mappings":"+IAMA,UAJqB,kBACnB","sources":["webpack://qr card component/./src/pages/404.js"],"sourcesContent":["import * as React from \"react\"\n\nconst NotFoundPage = () => (\n  <h1>404 not found</h1>\n)\n\nexport default NotFoundPage\n"],"names":[],"sourceRoot":""}
