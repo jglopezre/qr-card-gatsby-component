@@ -24,7 +24,7 @@ const qrImage = {
 
 const titleStyle = {
     fontSize: '1.5rem',
-    color: colors.darkBlue
+    color: colors.darkBlue,
 }
 const descStyle = {
     color: colors.grayishBlue
